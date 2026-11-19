@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<packageId>dragonissa.nalseyecolourpatch</packageId>
+	<name>Nal's Eye Implant Colour Patch</name>
+	<description>Removes the eye colour applied by Archotech Eye and Bionic Eye</description>
+	<author>Dragonissa</author>
+    <supportedVersions>
+		<li>1.4</li>
+	 	<li>1.5</li>
+        <li>1.6</li>
+		<li>1.7</li>
+    </supportedVersions>
+	<modDependencies>
+		<li>
+			<packageId>Nals.FacialAnimation</packageId>
+			<displayName>[NL] Facial Animation - WIP</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=1635901197</steamWorkshopUrl>
+		</li>
+		<li>
+			<packageId>Nals.Facialanimationexperimentals</packageId>
+			<displayName>[NL] Facial Animation - Experimentals</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2581693737</steamWorkshopUrl>
+		</li>
+	</modDependencies>
+	<loadAfter>
+		<li>Nals.FacialAnimation</li>
+		<li>Nals.Facialanimationexperimentals</li>
+	</loadAfter>
+</ModMetaData>

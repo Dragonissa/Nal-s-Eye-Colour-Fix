@@ -1,0 +1,14 @@
+<Patch>
+    <Operation Class="PatchOperationRemove">
+        <xpath>Defs/FacialAnimation.EyeballColorDef[defName="ArchotechEyeColor"]/eyeballColor</xpath>
+    </Operation>
+    <Operation Class="PatchOperationRemove">
+        <xpath>Defs/FacialAnimation.EyeballColorDef[defName="ArchotechEyeColor"]/hediffDef</xpath>
+    </Operation>
+    <Operation Class="PatchOperationRemove">
+        <xpath>Defs/FacialAnimation.EyeballColorDef[defName="BionicEyeColor"]/eyeballColor</xpath>
+    </Operation>
+        <Operation Class="PatchOperationRemove">
+        <xpath>Defs/FacialAnimation.EyeballColorDef[defName="BionicEyeColor"]/hediffDef</xpath>
+    </Operation>
+</Patch>
